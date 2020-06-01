@@ -18,8 +18,9 @@ export default function Home() {
         <title>Enough Is Enough</title>
       </Head>
       <Header />
-      <img src='./enough.jpg' style={poster}/>
-      <VictimScroller />
+      <h1>March Against Police Brutality</h1>
+      <img src='./poster_cropped.jpg' style={poster}/>
+      {/* <VictimScroller /> */}
 
       <footer>
         <Footer />
