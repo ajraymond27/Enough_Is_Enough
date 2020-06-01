@@ -6,14 +6,14 @@ const card = {
 }
 
 const pic ={
-    width: 250,
+    width: 200,
     margin: '0 auto',
     borderRadius: '175px'
 }
 
 const description ={
     textAlign: "center",
-    padding: '0px 10%'
+    // padding: '0px 10%'
 }
 
 export default class Victim extends Component {

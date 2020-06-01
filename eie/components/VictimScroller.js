@@ -31,6 +31,7 @@ export default class VidScroller extends React.Component {
                             overflow-x: scroll;
                             padding-top: 10px;
                             margin-top: 25px;
+                            margin-bottom: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;

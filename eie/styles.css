@@ -18,9 +18,14 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
 h2 {
   text-align: center;
-  color: var(--base3);
+  color: var(--white);
   padding: 10;
   width: '100%';
 }
@@ -28,7 +33,6 @@ h2 {
 h4 {
   color: var(--base1);
   text-align: center;
-  margin-top: 20px;
 }
 
 
