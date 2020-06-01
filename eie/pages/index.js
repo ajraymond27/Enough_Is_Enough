@@ -24,7 +24,7 @@ const content ={
 }
 
 const logo ={
-  width:  '100%',
+  height:  '70vh',
   margin: '0 auto',
   textAlign: 'center',
 }
@@ -38,7 +38,7 @@ export default function Home() {
       <Header />
       <main style={main}>
         <div style={content}>
-          <img src="./poster.jpg" style={logo}/>
+        {/* <img src="./poster.jpg" style={logo}/> */}
           <VictimScroller />
         </div>
       </main>
