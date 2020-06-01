@@ -23,7 +23,7 @@ export default function Link ({ children, href }) {
             font-weight: bold;
           }
           a:hover {
-            color: var(--orange);
+            color: var(--base1);
           }
         `}</style>
       </a>

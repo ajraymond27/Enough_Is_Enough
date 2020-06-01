@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 
+const card = {
+    border: 'none',
+}
+
+const pic ={
+    width: 250,
+    margin: '0 auto',
+    borderRadius: '175px'
+}
+
+const description ={
+    textAlign: "center",
+    padding: '0px 10%'
+}
+
 export default class Victim extends Component {
   constructor(props) {
     super(props);
@@ -9,39 +24,12 @@ export default class Victim extends Component {
   render () {
     return (
       <>
-        <Card >
-            <Card.Img variant="top" src="holder.js/100px180" />
+        <Card style={card}>
+            <Card.Img variant="top" src={this.props.victims.src} style={pic}/>
             <Card.Body>
             <Card.Text>
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
-            </Card.Text>
-            </Card.Body>
-        </Card>
-        <Card >
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-            <Card.Text>
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
-            </Card.Text>
-            </Card.Body>
-        </Card>
-        <Card >
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-            <Card.Text>
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
-            </Card.Text>
-            </Card.Body>
-        </Card>
-        <Card >
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-            <Card.Text>
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
+                <h4>{this.props.victims.name}</h4>
+                <p style={description}>{this.props.victims.description}</p>
             </Card.Text>
             </Card.Body>
         </Card>

@@ -6,10 +6,10 @@ import Footer from '../components/Footer';
 import VictimScroller from '../components/VictimScroller';
 
 const main ={
-  // backgroundImage: 'url("./violet.jpg")',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-  minHeight: '87vh',
+  // backgroundImage: 'url("./poster.jpg")',
+  // backgroundRepeat: 'no-repeat',
+  // backgroundSize: 'cover',
+  // minHeight: '87vh',
 }
 
 const content ={
@@ -23,15 +23,9 @@ const content ={
   // width: '100%',
 }
 
-const button ={
-  background: '#fff',
-  borderRadius: '10px',
-  border: 'none',
-  color: 'var(--base2)',
-  fontWeight: 'bold',
-  width: '250px',
-  padding: 15,
-  margin: 10,
+const logo ={
+  width:  '100%',
+  margin: '0 auto',
   textAlign: 'center',
 }
 
@@ -44,6 +38,7 @@ export default function Home() {
       <Header />
       <main style={main}>
         <div style={content}>
+          <img src="./poster.jpg" style={logo}/>
           <VictimScroller />
         </div>
       </main>
