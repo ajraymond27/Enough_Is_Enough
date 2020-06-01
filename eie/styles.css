@@ -1,9 +1,8 @@
 :root {
-    --orange: #D98E04;
-    --yellow: #F2B705;
-    --base1: #7C9EA6;
-    --base2: #587E8C;
-    --base3: #183540;
+    --white: #ffffff;
+    --base1: #E31C23;
+    --base2: #000;
+    --base3: #00843E;
   }
 
 html,
@@ -48,11 +47,11 @@ h4 {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--orange); 
+    background: var(--base2); 
     border-radius: 5px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--yellow); 
+    background: var(--base1); 
   }

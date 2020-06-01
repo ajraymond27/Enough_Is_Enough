@@ -3,23 +3,24 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Link from '../components/NavLink';
 import Footer from '../components/Footer';
+import VictimScroller from '../components/VictimScroller';
 
 const main ={
-  backgroundImage: 'url("./violet.jpg")',
+  // backgroundImage: 'url("./violet.jpg")',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
   minHeight: '87vh',
 }
 
 const content ={
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -15%)',
-  textAlign: 'center',
-  // color: '#fff',
-  padding: 10,
-  width: '100%',
+  // position: 'absolute',
+  // top: '50%',
+  // left: '50%',
+  // transform: 'translate(-50%, -15%)',
+  // textAlign: 'center',
+  // // color: '#fff',
+  // padding: 10,
+  // width: '100%',
 }
 
 const button ={
@@ -43,7 +44,7 @@ export default function Home() {
       <Header />
       <main style={main}>
         <div style={content}>
-          Hello Universe
+          <VictimScroller />
         </div>
       </main>
 
