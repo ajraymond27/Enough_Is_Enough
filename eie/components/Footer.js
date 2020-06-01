@@ -18,10 +18,10 @@ const social = {
 export default function Footer () {
     return (
         <footer style={footer}>
-            <SocialIcon url="https://www.linkedin.com/in/antraymond/" bgColor='var(--base2)' style={social}/>
+            {/* <SocialIcon url="https://www.linkedin.com/in/antraymond/" bgColor='var(--base2)' style={social}/>
             <SocialIcon url="https://github.com/ajraymond27" bgColor='var(--base2)' style={social}/>
             <SocialIcon url="https://www.instagram.com/ajraymond27/?hl=en" bgColor='var(--base2)' style={social}/>
-            <SocialIcon url="http://ajraymond27@gmail.com" bgColor='var(--base2)' style={social}/>
+            <SocialIcon url="http://ajraymond27@gmail.com" bgColor='var(--base2)' style={social}/> */}
         </footer>
     )
 }

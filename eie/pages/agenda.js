@@ -67,7 +67,7 @@ export default function Agenda() {
           <Card.Body>
             <Card.Title>Driving Option</Card.Title>
             <Card.Text>
-              <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up behind the marchers at 2:45pm ET on Friday June 5th. Blue and black Ford Fusions will lead the line of cars.</p>
+              <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up behind the marchers at 2:45pm ET on Friday June 5th. Blue and black Ford Fusions will lead the line of cars. Parking will be available near 6th/Indiana and 4th/Dunn.</p>
             </Card.Text>
           </Card.Body>
         </Card>
