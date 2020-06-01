@@ -11,7 +11,7 @@ export default function Agenda() {
         <title>Agenda</title>
       </Head>
       <Header />
-      <main style={main}>
+      <main >
         Hello Universe
       </main>
 

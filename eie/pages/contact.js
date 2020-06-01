@@ -11,7 +11,7 @@ export default function Contact() {
         <title>Contact</title>
       </Head>
       <Header />
-      <main style={main}>
+      <main >
         Hello Universe
       </main>
 

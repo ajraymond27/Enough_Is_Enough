@@ -11,7 +11,7 @@ export default function Donate() {
         <title>Donate</title>
       </Head>
       <Header />
-      <main style={main}>
+      <main >
         Hello Universe
       </main>
 
