@@ -14,7 +14,7 @@ export default class VidScroller extends React.Component {
     render() {
         return (
             <div className="strip">
-            <h4>Say Their Names</h4>
+            {/* <h4>Say Their Names</h4> */}
             <div className="grid-container">
                 {this.state.victims.map((victims) => (
                     <Victim victims={victims} />
@@ -29,8 +29,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 50%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
@@ -49,8 +49,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 45%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
@@ -69,8 +69,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 65%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
@@ -90,8 +90,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 70%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
@@ -109,8 +109,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 70%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
@@ -131,8 +131,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 85%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
@@ -150,8 +150,8 @@ export default class VidScroller extends React.Component {
                             grid-template-columns: repeat(100, 40%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             overflow-x: scroll;
-                            padding-bottom: 10px;
-                            margin-bottom: 25px;
+                            padding-top: 10px;
+                            margin-top: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
