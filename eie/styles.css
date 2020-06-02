@@ -57,5 +57,5 @@ h4 {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--base1); 
+    background: var(--base3); 
   }

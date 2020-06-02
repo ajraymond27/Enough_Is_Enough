@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 const card = {
     border: 'none',
     boxShadow: '0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19)',
+    marginBottom: '10px',
 }
 
 const pic ={

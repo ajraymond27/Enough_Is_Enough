@@ -14,7 +14,6 @@ export default class VidScroller extends React.Component {
     render() {
         return (
             <div className="strip">
-            {/* <h4>Say Their Names</h4> */}
             <div className="grid-container">
                 {this.state.victims.map((victims) => (
                     <Victim victims={victims} />
@@ -26,19 +25,14 @@ export default class VidScroller extends React.Component {
                         .grid-container {
                             display: grid;
                             grid-gap: 10px;
-                            grid-template-columns: repeat(100, 50%) 5px; 
+                            grid-template-columns: repeat(10, 50%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
-                            overflow-x: scroll;
-                            padding-top: 10px;
-                            margin-top: 25px;
-                            margin-bottom: 25px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
                         }
                         .grid-container > div {
                             text-align: center;
-                            padding: 10px 0;
                             font-size: 30px;
                         }    
                     }

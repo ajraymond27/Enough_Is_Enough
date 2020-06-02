@@ -4,6 +4,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from 'react-bootstrap/Card';
 
+const card ={
+  border: 'none',
+  boxShadow: '0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19)',
+  marginBottom: '10px',
+}
 
 export default function Agenda() {
   return (
@@ -17,7 +22,7 @@ export default function Agenda() {
         As we mourn the life of George Floyd, we are in solidarity with those in the streets in Minneapolis and the Black liberation movement that is working to destroy white supremacy, abolish police brutality and free us all. 
       </p>
 
-      <Card className="">
+      <Card style={card}>
           <Card.Body>
             <Card.Title>Monday June 1st - Thursday June 4th</Card.Title>
             <Card.Text>
@@ -31,7 +36,7 @@ export default function Agenda() {
           </Card.Body>
         </Card>
 
-        <Card className="">
+        <Card style={card}>
           <Card.Body>
             <Card.Title>Friday June 5th</Card.Title>
             <Card.Text>
@@ -63,7 +68,7 @@ export default function Agenda() {
         </Card>
 
         <h1>Covid-19 Accomodations</h1>
-        <Card className="">
+        <Card style={card}>
           <Card.Body>
             <Card.Title>Driving Option</Card.Title>
             <Card.Text>
@@ -71,7 +76,7 @@ export default function Agenda() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className="">
+        <Card style={card}>
           <Card.Body>
             <Card.Title>Supplies</Card.Title>
             <Card.Text>
