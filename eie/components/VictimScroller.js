@@ -25,7 +25,7 @@ export default class VidScroller extends React.Component {
                         .grid-container {
                             display: grid;
                             grid-gap: 10px;
-                            grid-template-columns: repeat(10, 50%) 5px; 
+                            grid-template-columns: repeat(10, 45%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             align-content: start;
                             overflow-y: hidden; 

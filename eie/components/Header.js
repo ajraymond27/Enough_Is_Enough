@@ -10,7 +10,7 @@ const navbar ={
 }
 
 const logo = {
-  width: '75px',
+  width: '60px',
 }
 
 export default function Header() {
