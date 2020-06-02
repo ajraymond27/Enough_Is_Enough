@@ -30,7 +30,7 @@ export default class Victim extends Component {
             <Card.Img variant="top" src={this.props.victims.src} style={pic}/>
             <Card.Body>
             <Card.Text>
-                <h4>{this.props.victims.name}</h4>
+                <h4 style={{color: 'var(--base1)'}}>{this.props.victims.name}</h4>
                 <p style={description}>{this.props.victims.description}</p>
             </Card.Text>
             </Card.Body>

@@ -35,8 +35,8 @@ export default function Donate() {
       <Card style={card}>
           <Card.Img variant="top" src="./cash.jpg" style={img}/>
           <Card.Body>
-            <Card.Title>Cash App</Card.Title>
-            <Card.Text>
+            <Card.Title><h4>Cash App</h4></Card.Title>
+            <Card.Text style={{textAlign: 'center'}}>
               Scan this code or Cash App $EnoughIsEnough2020. Please specify which fund you want to contribute to in the description.
             </Card.Text>
           </Card.Body>
@@ -44,8 +44,8 @@ export default function Donate() {
         <Card style={card}>
           <Card.Img variant="top" src="spotfund.png" style={img}/>
           <Card.Body>
-            <Card.Title>*spotfund</Card.Title>
-            <Card.Text>
+            <Card.Title><h4>*spotfund</h4></Card.Title>
+            <Card.Text style={{textAlign: 'center'}}>
               Click the following link to complete your donation:    
               <a href="https://www.spotfund.com/story/70c3d72c-dc07-413f-b6f2-a1c8ecb7d7cd?referral_id=83b23813-5259-4603-a162-4a6a6fb1abbf" >  www.spotfund.com</a>
               <br/>Please specify which fund you want to contribute to in the description.
@@ -55,8 +55,8 @@ export default function Donate() {
         <Card style={card}>
           <Card.Img variant="top" src="./bakery.png" style={img}/>
           <Card.Body>
-            <Card.Title>Rainbow Bakery</Card.Title>
-            <Card.Text>
+            <Card.Title><h4>Rainbow Bakery</h4></Card.Title>
+            <Card.Text style={{textAlign: 'center'}}>
               Click the following link to complete your donation:    
               <a href="https://rainbow-bakery.square.site/product/enough-is-enough-fund/132?fbclid=IwAR2CaDgVZb4K0ZMTk0W-kszdXCWxX6kksKJj1VQQCj2N1TUPFtZnnOrm8QM" >  rainbow-bakery.square.site</a>
               <br/>Please specify which fund you want to contribute to in the description.

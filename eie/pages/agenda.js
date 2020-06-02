@@ -3,11 +3,17 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from 'react-bootstrap/Card';
+import SpeakerGroup from '../components/SpeakerGroup';
 
 const card ={
   border: 'none',
   boxShadow: '0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19)',
   marginBottom: '10px',
+}
+
+const img ={
+  width: 100,
+  margin: '0 auto',
 }
 
 export default function Agenda() {
@@ -67,7 +73,10 @@ export default function Agenda() {
           </Card.Body>
         </Card>
 
-        <h1>Covid-19 Accomodations</h1>
+        <h4>Public Speakers</h4>
+        <SpeakerGroup />
+
+        <h4>Covid-19 Accomodations</h4>
         <Card style={card}>
           <Card.Body>
             <Card.Title>Driving Option</Card.Title>
@@ -80,13 +89,10 @@ export default function Agenda() {
           <Card.Body>
             <Card.Title>Supplies</Card.Title>
             <Card.Text>
-              <p>Our volunteers will have a limited supply of cloth masks and first aid for anyone in need. Please wear a mask, bring hand sanitizer, and respect social distancing.</p>
+              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need. Please wear a mask, bring hand sanitizer, and respect social distancing.</p>
             </Card.Text>
           </Card.Body>
         </Card>
-
-
-
       <footer>
         <Footer />
       </footer>

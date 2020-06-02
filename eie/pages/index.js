@@ -31,7 +31,8 @@ export default function Home() {
       </Head>
       <Header />
       <h1>Enough Is Enough</h1>
-      <h4>Friday June 5th   |   Dunn Meadow   |   3:00 PM ET</h4>
+      <h4>Friday June 5th | 3:00 PM ET</h4>
+      <h4>Bloomington Dunn Meadow</h4>
       {/* <h4>Dunn Meadow</h4>
       <h4>3:00 PM ET</h4> */}
       <div style={{background: 'var(--white)', color: 'black', textAlign: 'center', padding: 10, marginBottom: 10}}>

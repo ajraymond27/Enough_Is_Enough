@@ -1,22 +1,21 @@
 import React from 'react';
-import Victim from './Victim';
-import victims from '../data/victims';
+import Speaker from '../components/Speaker';
+import speakers from '../data/speakers';
 
 export default class VidScroller extends React.Component {
     constructor(props) {
         super (props);
         this.state = {
-            victims
+            speakers
         }
       }
-    
-  
+      
     render() {
         return (
             <div className="strip">
             <div className="grid-container">
-                {this.state.victims.map((victims) => (
-                    <Victim victims={victims} />
+                {this.state.speakers.map((speakers) => (
+                    <Speaker speakers={speakers} />
                 ))}
 
                 <style jsx>{`
@@ -25,10 +24,8 @@ export default class VidScroller extends React.Component {
                         .grid-container {
                             display: grid;
                             grid-gap: 10px;
-                            grid-template-columns: repeat(10, 45%) 5px; 
+                            grid-template-columns: repeat(20, 45%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
-                            margin-top: 10px;
-                            margin-bottom: 10px;
                             align-content: start;
                             overflow-y: hidden; 
                             overflow-x: scroll;
