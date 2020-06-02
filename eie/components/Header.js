@@ -23,6 +23,8 @@ export default function Header() {
                     <Link href="/" >Home</Link>
                     <Link href="/agenda" >Agenda</Link>
                     <Link href="/donate" >Donate</Link>
+                    <Link href="/about" >About</Link>
+
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

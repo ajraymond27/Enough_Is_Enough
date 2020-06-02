@@ -2,7 +2,7 @@ const victims = [
     {
       src: "./floyd.jpg",
       name: "George Floyd",
-      description: "George Floyd, a 46-year-old African-American man, died on May 25, 2020 after being handcuffed and pinned to the ground by a police officer’s knee",
+      description: "George Floyd, a 46-year-old African-American man, died on May 25, 2020 after being handcuffed and pinned to the ground by a police officer’s knee.",
     },
     {
       src: "./reed.jpg",

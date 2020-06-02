@@ -25,9 +25,12 @@ export default function Donate() {
       <Header />
       <h1>Donate</h1>
       <p>We are proud to announce that we are taking donations for two causes local and across state lines to create unity in our community.</p>
-      <p>The Banneker community center is an organization that has opened its arms as a space for black youth in Bloomington. By fundraising for this organization, we hope to promote empowerment for our future leaders. Black youth are young witnesses to the crimes against black people. This protest is one that not only is to inform but to empower. One way we believe we can empower is having this protest have immediate results that can directly impact the black community of Bloomington. </p>
-      <p>The Enough Is Enough 2020 Fund was created to help unite the Black Community in our fight against racial injustices. During this time of recession, anger, hatred, and confusion many Black businesses face hardships due to protest that have become violent. The goal of this fund is to protect and restore Black Businesses affected by the fight against police brutality/killings. </p>
-      
+      <p>
+        <span style={{fontWeight: 'bold'}}>The Banneker Community Center</span> <span style={{marginBottom: '10px'}}>is an organization that has opened its arms as a space for black youth in Bloomington. By fundraising for this organization, we hope to promote empowerment for our future leaders. Black youth are young witnesses to the crimes against black people. This protest is one that not only is to inform but to empower. One way we believe we can empower is having this protest have immediate results that can directly impact the black community of Bloomington. </span>
+      </p>
+      <p>
+        <span style={{fontWeight: 'bold'}}>The Enough Is Enough 2020 Fund </span> <span style={{marginBottom: '10px'}}>was created to help unite the Black Community in our fight against racial injustices. During this time of recession, anger, hatred, and confusion many Black businesses face hardships due to protest that have become violent. The goal of this fund is to protect and restore Black Businesses affected by the fight against police brutality/killings. </span>     
+      </p>
       <CardGroup>
       <Card style={card}>
           <Card.Img variant="top" src="./cash.jpg" style={img}/>
