@@ -42,7 +42,7 @@ const speakers = [
     {
       src: "./speaker/holmes.jpg",
       name: "Sharod Holmes",
-      title: "Designer",
+      title: "Innovator and Designer",
     },
     {
       src: "./speaker/jean_baptiste.jpg",
