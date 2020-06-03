@@ -4,6 +4,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
+import OrgScroller from '../components/OrgScroller';
+import { SocialIcon } from 'react-social-icons';
+
 
 const card ={
   border: 'none',
@@ -17,7 +20,13 @@ const pic ={
   borderRadius: '175px'
 }
 
-export default class VidScroller extends React.Component {
+const social = {
+  width: '50px',
+  height: '50px',
+  marginRight: 10,
+}
+
+export default class About extends React.Component {
   constructor(props) {
       super (props);
     }
@@ -34,7 +43,7 @@ export default class VidScroller extends React.Component {
       <h4>Organizers</h4>
       <CardGroup>
         <Card style={card}>
-          {/* <Card.Img variant="top" src="./selena.jpg" style={pic}/> */}
+          <Card.Img variant="top" src="./selena.jpg" style={pic}/>
           <Card.Body>
             <Card.Title><h4>Selena Drake</h4></Card.Title>
             <Card.Text style={{textAlign: 'center'}}>
@@ -43,7 +52,7 @@ export default class VidScroller extends React.Component {
           </Card.Body>
         </Card>
         <Card style={card}>
-          {/* <Card.Img variant="top" src="salina.jpg" style={pic}/> */}
+          <Card.Img variant="top" src="salina.jpg" style={pic}/>
           <Card.Body>
             <Card.Title><h4>Salina Tesfagiorgis</h4></Card.Title>
             <Card.Text style={{textAlign: 'center'}}>
@@ -54,12 +63,30 @@ export default class VidScroller extends React.Component {
       </CardGroup>
 
       <h4>Connect With Us</h4>
-      <p>instagram, emails</p>
+        <Card style={card}>
+            <Card.Body>
+              <Card.Text style={{textAlign: 'center'}}>
+                <SocialIcon url="https://www.instagram.com/_enoughisenough2020/?hl=en" bgColor='var(--base2)' style={social}/>
+                <p>Contact <a href="https://www.instagram.com/_enoughisenough2020/?hl=en">_enoughisenough2020 </a> on Instagram with all questions and inquiries. Thank you!</p>         
+              </Card.Text>
+            </Card.Body>
+          </Card>
 
-      <h4>Supporting Orgs scroller</h4>
+      <h4>Supporting Organizations</h4>
+      <OrgScroller />
 
       <h4>Media</h4>
-
+      <CardGroup>
+        <Card style={card}>
+          <Card.Img variant="top" src="./flyers/flyer1.jpg" />
+        </Card>
+        <Card style={card}>
+          <Card.Img variant="top" src="./flyers/flyer2.jpg" />
+        </Card>
+        <Card style={card}>
+          <Card.Img variant="top" src="./flyers/flyer3.jpg"/>
+        </Card>
+      </CardGroup>
       
       <footer>
         <Footer />

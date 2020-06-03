@@ -16,7 +16,7 @@ const img ={
   margin: '0 auto',
 }
 
-export default class VidScroller extends React.Component {
+export default class Agenda extends React.Component {
   constructor(props) {
       super (props);
     }

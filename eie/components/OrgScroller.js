@@ -1,12 +1,12 @@
 import React from 'react';
-import Speaker from '../components/Speaker';
-import speakers from '../data/speakers';
+import Org from '../components/Org';
+import orgs from '../data/orgs';
 
-export default class SpeakerGroup extends React.Component {
+export default class OrgScroller extends React.Component {
     constructor(props) {
         super (props);
         this.state = {
-            speakers
+            orgs
         }
       }
       
@@ -14,8 +14,8 @@ export default class SpeakerGroup extends React.Component {
         return (
             <div className="strip">
             <div className="grid-container">
-                {this.state.speakers.map((speakers) => (
-                    <Speaker speakers={speakers} />
+                {this.state.orgs.map((orgs) => (
+                    <Org orgs={orgs} />
                 ))}
 
                 <style jsx>{`
@@ -24,7 +24,7 @@ export default class SpeakerGroup extends React.Component {
                         .grid-container {
                             display: grid;
                             grid-gap: 10px;
-                            grid-template-columns: repeat(20, 45%) 5px; 
+                            grid-template-columns: repeat(100, 45%) 5px; 
                             grid-template-rows: minmax(150px, 1fr);
                             align-content: start;
                             overflow-y: hidden; 

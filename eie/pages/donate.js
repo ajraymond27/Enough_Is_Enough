@@ -16,7 +16,7 @@ const card ={
   marginBottom: '10px',
 }
 
-export default class VidScroller extends React.Component {
+export default class Donate extends React.Component {
   constructor(props) {
       super (props);
     }
