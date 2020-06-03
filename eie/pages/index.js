@@ -36,8 +36,8 @@ export default class Home extends React.Component {
       </Head>
       <Header />
       <h1>Enough Is Enough</h1>
-      <h4>Friday June 5th | 3:00 PM ET</h4>
-      <h4>Bloomington Dunn Meadow</h4>
+      <h4 style={{color: 'var(--base1)'}}>Friday June 5th | 3:00 PM ET</h4>
+      <h4 style={{color: 'var(--base1)'}}>Bloomington Dunn Meadow</h4>
       {/* <h4>Dunn Meadow</h4>
       <h4>3:00 PM ET</h4> */}
       <div style={{marginBottom: 10}}>
