@@ -16,7 +16,12 @@ const img ={
   margin: '0 auto',
 }
 
-export default function Agenda() {
+export default class VidScroller extends React.Component {
+  constructor(props) {
+      super (props);
+    }
+    
+  render() {
   return (
     <div className="container">
       <Head>
@@ -98,4 +103,5 @@ export default function Agenda() {
       </footer>
     </div>
   )
+}
 }

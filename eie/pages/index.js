@@ -23,7 +23,12 @@ const button ={
   textAlign: 'center',
 }
 
-export default function Home() {
+export default class VidScroller extends React.Component {
+  constructor(props) {
+      super (props);
+    }
+    
+  render() {
   return (
     <div className="container">
       <Head>
@@ -52,3 +57,4 @@ export default function Home() {
     </div>
   )
 } 
+}

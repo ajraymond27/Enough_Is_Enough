@@ -17,7 +17,12 @@ const pic ={
   borderRadius: '175px'
 }
 
-export default function Donate() {
+export default class VidScroller extends React.Component {
+  constructor(props) {
+      super (props);
+    }
+    
+  render() {
   return (
     <div className="container">
       <Head>
@@ -61,4 +66,5 @@ export default function Donate() {
       </footer>
     </div>
   )
+}
 }
