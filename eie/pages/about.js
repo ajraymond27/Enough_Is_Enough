@@ -75,7 +75,7 @@ export default class About extends React.Component {
       <h4>Supporting Organizations</h4>
       <OrgScroller />
 
-      <h4>Media</h4>
+      <h4>Spread The Word</h4>
       <CardGroup>
         <Card style={card}>
           <Card.Img variant="top" src="./flyers/flyer1.jpg" />
