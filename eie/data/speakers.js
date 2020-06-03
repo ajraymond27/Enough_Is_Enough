@@ -25,6 +25,11 @@ const speakers = [
       title: "Vice-Chair, MLK Birthday Commission",
     },
     {
+      src: "./speaker/myers_amrita.jpg",
+      name: "Dr. Amrita Chakrabarti Myers",
+      title: "Black Lives Matter Representative",
+    },
+    {
       src: "./speaker/moss.jpg",
       name: "Shatoyia Moss",
       title: "Director of Safe and Civil City",
