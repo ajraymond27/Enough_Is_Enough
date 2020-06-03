@@ -20,7 +20,7 @@ const pic ={
 export default function Donate() {
   return (
     <div className="container">
-      {/* <Head>
+      <Head>
         <title>About</title>
       </Head>
       <Header />
@@ -58,7 +58,7 @@ export default function Donate() {
       
       <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </div>
   )
 }
