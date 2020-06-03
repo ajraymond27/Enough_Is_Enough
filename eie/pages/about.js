@@ -29,7 +29,7 @@ export default function Donate() {
       <h4>Organizers</h4>
       <CardGroup>
         <Card style={card}>
-          <Card.Img variant="top" src="./selena.jpg" style={pic}/>
+          {/* <Card.Img variant="top" src="./selena.jpg" style={pic}/> */}
           <Card.Body>
             <Card.Title><h4>Selena Drake</h4></Card.Title>
             <Card.Text style={{textAlign: 'center'}}>
@@ -38,7 +38,7 @@ export default function Donate() {
           </Card.Body>
         </Card>
         <Card style={card}>
-          <Card.Img variant="top" src="salina.jpg" style={pic}/>
+          {/* <Card.Img variant="top" src="salina.jpg" style={pic}/> */}
           <Card.Body>
             <Card.Title><h4>Salina Tesfagiorgis</h4></Card.Title>
             <Card.Text style={{textAlign: 'center'}}>
