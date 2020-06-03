@@ -1,103 +1,153 @@
 const orgs = [
     {
-      src: "./orgs/blm.jpg",
+      name: "All-Options Pregnancy Resource Center",
+    },
+    {
+      name: "Being Bloomington: Being Peace",
+    },
+    {
       name: "Black Lives Matter Bloomington",
     },
     {
-      src: "./orgs/bloomington.jpg",
+      name: "Black Student Union - Indiana University",
+    },
+    {
+      name: "BLISS Reiki and Animal Reiki",
+    },
+    {
+      name: "Bloomington Center for Connection",
+    },
+    {
+      name: "Bloomington Democratic Socialists of America ",
+    },
+    {
       name: "Bloomington",
     },
     {
-      src: "./orgs/bpac.png",
       name: "Bloomington Peace Action Coalition ",
     },
     {
-      src: "./orgs/ppc.jpg",
       name: "Bloomington Poor People’s Campaign",
     },
     {
-      src: "./orgs/bloomington_united.png",
       name: "Bloomington United",
     },
     {
-      src: "./orgs/college_dems.jpg",
+      name: "Btown Justice",
+    },
+    {
       name: "College Democrats at Indiana University",
     },
     {
-      src: "./orgs/commission.jpg",
       name: "Commission for the Status of Black Males",
     },
     {
-      src: "./orgs/blank.png",
       name: "Citizens for a Just Peace in Palestine/Israel",
     },
     {
-      src: "./orgs/democracy_monroe_county.jpg",
+      name: "Community AIDS Action Group of South Central Indiana",
+    },
+    {
       name: "Democracy for Monroe County",
     },
     {
-      src: "./orgs/blank.png",
+      name: "El Mercado",
+    },
+    {
+      name: "FAR Center for Contemporary Arts",
+    },
+    {
       name: "Feminist Research Collective",
     },
     {
-      src: "./orgs/golden_bicycle.png",
+      name: "Global Gifts Bloomington",
+    },
+    {
       name: "Golden Bicycle",
     },
     {
-      src: "./orgs/unitarian_church.jpg",
+      name: "Hoosier Action",
+    },
+    {
+      name: "Indiana Recovery Alliance",
+    },
+    {
+      name: "Indiana University Student Personnel Association",
+    },
+    {
       name: "Just Peace Task Force, Unitarian Universalist Church of Bloomington",
     },
     {
-      src: "./orgs/latinos_unidos.jpg",
       name: "Latinos Unidos Indiana University",
     },
     {
-      src: "./orgs/mutual_aid.png",
       name: "Monroe County Area Mutual Aid",
     },
     {
-      src: "./orgs/naacp.jpg",
       name: "Monroe County Branch NAACP",
     },
     {
-      src: "./orgs/monroe_dem_party.jpg",
       name: "Monroe County Democratic Party",
     },
     {
-      src: "./orgs/natl_org_for_women.png",
       name: "Monroe County National Organization for Women",
     },
     {
-      src: "./orgs/mutual_aid_masks.jpg",
       name: "Mutual Aid Masks",
     },
     {
-      src: "./orgs/napawf.png",
       name: "National Asian and Pacific Islander Women’s Forum Indiana",
     },
     {
-      src: "./orgs/north_star.png",
       name: "North Star Capoeira",
     },
     {
-      src: "./orgs/no_space.png",
       name: "No Space for Hate",
     },
     {
-      src: "./orgs/arts_sciences.jpg",
       name: "Office of Diversity and Inclusion, College of Arts and Sciences, Indiana University ",
     },
     {
-      src: "./orgs/purple.jpg",
+      name: "Oxfam Club at IU",
+    },
+    {
+      name: "Palestine Solidarity Committee",
+    },
+    {
       name: "Purple Shirt Brigade",
     },
     {
-      src: "./orgs/unitarian_church.jpg",
+      name: "Phi Alpha Delta - Pre-law fraternity at IU",
+    },
+    {
       name: "Racial Justice Task Force, Unitarian Universalist Church of Bloomington",
     },
     {
-      src: "./orgs/sepa.png",
+      name: "School of Education Graduate Student Association",
+    },
+    {
       name: "Students for Equity in Public Affairs",
+    },
+    {
+      name: "Sunrise Movement",
+    },
+    {
+      name: "Switchyard Brewing Company",
+    },
+    {
+      name: "Trinity Episcopal Church",
+    },
+    {
+      name: "United Way of Monroe County",
+    },
+    {
+      name: "We are You",
+    },
+    {
+      name: "Wild Orchid Aerial Fitness and Dance",
+    },
+    {
+      name: "Young Democratic Socialists of America Bloomington",
     },
    
   ];

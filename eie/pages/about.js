@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
-import OrgScroller from '../components/OrgScroller';
+import OrgSection from '../components/OrgSection';
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -72,9 +72,6 @@ export default class About extends React.Component {
             </Card.Body>
           </Card>
 
-      <h4>Supporting Organizations</h4>
-      <OrgScroller />
-
       <h4>Spread The Word</h4>
       <CardGroup>
         <Card style={card}>
@@ -87,6 +84,9 @@ export default class About extends React.Component {
           <Card.Img variant="top" src="./flyers/flyer3.jpg"/>
         </Card>
       </CardGroup>
+
+      <h4>Supporting Organizations</h4>
+      <OrgSection />
       
       <footer>
         <Footer />
