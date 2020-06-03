@@ -14,7 +14,7 @@ export default class Org extends Component {
     render () {
       return (
         <>
-          <span style={org}>{this.props.orgs.name}  &#9679; </span>
+          <span style={org}>{this.props.orgs.name}  &#8226; </span>
         </>
       )
     }
