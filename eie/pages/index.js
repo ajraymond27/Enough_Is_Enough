@@ -46,6 +46,7 @@ export default class Home extends React.Component {
         <div style={{margin: '0 auto', textAlign: 'center', }}>
           <a href="/agenda"><button style={button}>Agenda</button></a>
           <a href="/donate"><button style={button}>Donate</button></a>
+          <a href="/about"><button style={button}>About</button></a>
         </div>
       
         {/* <img src='./poster_cropped.jpg' style={poster}/> */}
