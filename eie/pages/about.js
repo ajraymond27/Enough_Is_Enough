@@ -56,7 +56,7 @@ export default class About extends React.Component {
           <Card.Body>
             <Card.Title><h4>Salina Tesfagiorgis</h4></Card.Title>
             <Card.Text style={{textAlign: 'center'}}>
-              Hamilton Lugar School of Global and International Studies BA/MA Student who's passion is the betterment of Humanity
+              Hamilton Lugar School of Global and International Studies BA/MA Student whose passion is the betterment of Humanity
             </Card.Text>
           </Card.Body>
         </Card>
