@@ -100,7 +100,9 @@ export default class Agenda extends React.Component {
           <Card.Body>
             <Card.Title>Supplies</Card.Title>
             <Card.Text>
-              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need. Please wear a mask, bring hand sanitizer, and respect social distancing.</p>
+              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need. Please wear a mask, bring hand sanitizer, and respect social distancing.
+                Please review this article to learn more:<a href="https://slate.com/technology/2020/06/how-protesters-can-minimize-their-risk-of-catching-and-spreading-the-coronavirus.html"> How Protesters Can Minimize Their Risk of Catching and Spreading the Coronavirus</a>
+              </p>
             </Card.Text>
           </Card.Body>
         </Card>
