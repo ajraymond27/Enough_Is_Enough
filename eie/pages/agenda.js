@@ -65,8 +65,14 @@ export default class Agenda extends React.Component {
 
               <p>3:00pm ET</p>
               <ul>
-                <li>Location: Intersection of 7th Street and Indiana Ave</li>
-                <li>We march! Volunteers will guide the protest toward the courthouse</li>
+                <li>Location: Dunn Meadow</li>
+                <li>Public speakers will address the protest.</li>
+              </ul>
+
+              <p>3:30pm ET</p>
+              <ul>
+                <li>Location: Dunn Meadow --> Courthouse</li>
+                <li>We march! Volunteers will guide the march from Dunn Meadow to the Courthouse.</li>
               </ul>
 
               <p>4:00pm ET</p>
