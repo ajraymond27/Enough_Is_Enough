@@ -6,9 +6,6 @@ const orgs = [
       name: "Being Bloomington: Being Peace",
     },
     {
-      name: "Black Lives Matter Bloomington",
-    },
-    {
       name: "Black Student Union - Indiana University",
     },
     {
