@@ -39,7 +39,7 @@ export default class About extends React.Component {
       </Head>
       <Header />
       <h1>About</h1>
-      <p>In light of recent events in regards to the killing of Black men by police officers, the community of Bloomington has decided to take a stand for our brothers and sisters. </p>
+      <p>In light of recent events in regards to the killing of Black people by police officers, the community of Bloomington has decided to take a stand for our brothers and sisters. </p>
       <h4>Organizers</h4>
       <CardGroup>
         <Card style={card}>
