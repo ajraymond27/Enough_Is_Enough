@@ -92,7 +92,9 @@ export default class Agenda extends React.Component {
           <Card.Body>
             <Card.Title>Driving Option</Card.Title>
             <Card.Text>
-              <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up behind the marchers at 2:45pm ET on Friday June 5th. Blue and black Ford Fusions will lead the line of cars. Parking will be available near 6th/Indiana and 4th/Dunn.</p>
+              <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up behind the marchers at 2:45pm ET on Friday June 5th. 
+                Blue and black Ford Fusions will lead the line of cars. IF you plan on driving, please park in the two parking lots behind Noodles &amp; Company. If those spaces are full, please park behind Qdoba.
+                We will have volunteers directing traffic! Volunteers will also be in both parking lots with art supplies for those who want to decorate their car!</p>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -100,8 +102,18 @@ export default class Agenda extends React.Component {
           <Card.Body>
             <Card.Title>Supplies</Card.Title>
             <Card.Text>
-              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need. Please wear a mask, bring hand sanitizer, and respect social distancing.
-                Please review this article to learn more:<a href="https://slate.com/technology/2020/06/how-protesters-can-minimize-their-risk-of-catching-and-spreading-the-coronavirus.html"> How Protesters Can Minimize Their Risk of Catching and Spreading the Coronavirus</a>
+              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need. However, please refer to this Walmart registry for items still needed for the protest. Our team will pick the items up from the store.
+                <a href="https://www.walmart.com/lists/shared/042deea4-05cb-43d5-b914-db597a0aff7b"> Walmart Registry</a>
+              </p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={card}>
+          <Card.Body>
+            <Card.Title>Considerations</Card.Title>
+            <Card.Text>
+              <p>Please wear a mask, bring hand sanitizer, and respect social distancing. If you do not have a mask, volunteers will be passing some out to provide a safer environment. 
+                Review this article to learn more:<a href="https://slate.com/technology/2020/06/how-protesters-can-minimize-their-risk-of-catching-and-spreading-the-coronavirus.html"> How Protesters Can Minimize Their Risk of Catching and Spreading the Coronavirus</a>
               </p>
             </Card.Text>
           </Card.Body>
