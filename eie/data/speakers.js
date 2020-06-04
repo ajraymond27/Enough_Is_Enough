@@ -27,7 +27,7 @@ const speakers = [
     {
       src: "./speaker/myers_amrita.jpg",
       name: "Dr. Amrita Chakrabarti Myers",
-      title: "Black Lives Matter Representative",
+      title: "Ruth N. Halls Associate Professor, Departments of History and Gender Studies",
     },
     {
       src: "./speaker/moss.jpg",
