@@ -6,13 +6,16 @@ const orgs = [
       name: "Being Bloomington: Being Peace",
     },
     {
-      name: "Black Lives Matter Bloomington",
+      name: "Black Lives Matter - National",
     },
     {
       name: "Black Student Union - Indiana University",
     },
     {
       name: "BLISS Reiki and Animal Reiki",
+    },
+    {
+      name: "Bloomington Christian Radical Catholic",
     },
     {
       name: "Bloomington Center for Connection",
@@ -42,6 +45,12 @@ const orgs = [
       name: "Commission for the Status of Black Males",
     },
     {
+      name: "Commission on Hispanic and Latino Affairs",
+    },
+    {
+      name: "Courage to Change Sober Living",
+    },
+    {
       name: "Citizens for a Just Peace in Palestine/Israel",
     },
     {
@@ -60,6 +69,9 @@ const orgs = [
       name: "Feminist Research Collective",
     },
     {
+      name: "Gather",
+    },
+    {
       name: "Global Gifts Bloomington",
     },
     {
@@ -69,7 +81,13 @@ const orgs = [
       name: "Hoosier Action",
     },
     {
+      name: "Indiana Coalition for Public Education",
+    },
+    {
       name: "Indiana Recovery Alliance",
+    },
+    {
+      name: "Indiana University Hillel",
     },
     {
       name: "Indiana University Student Personnel Association",
@@ -79,6 +97,12 @@ const orgs = [
     },
     {
       name: "Latinos Unidos Indiana University",
+    },
+    {
+      name: "Middle Way House",
+    },
+    {
+      name: "Moms Demand Action for Gun Sense in America - Bloomington Chapter",
     },
     {
       name: "Monroe County Area Mutual Aid",
@@ -96,7 +120,13 @@ const orgs = [
       name: "Mutual Aid Masks",
     },
     {
+      name: "My Sister's Closet",
+    },
+    {
       name: "National Asian and Pacific Islander Women’s Forum Indiana",
+    },
+    {
+      name: "New Leaf New Life",
     },
     {
       name: "North Star Capoeira",
@@ -108,10 +138,25 @@ const orgs = [
       name: "Office of Diversity and Inclusion, College of Arts and Sciences, Indiana University ",
     },
     {
+      name: "One World Enterprises",
+    },
+    {
+      name: "Oak.",
+    },
+    {
       name: "Oxfam Club at IU",
     },
     {
       name: "Palestine Solidarity Committee",
+    },
+    {
+      name: "Peace in the Middle East at IU",
+    },
+    {
+      name: "Phi Alpha Delta - Pre-law fraternity at IU",
+    },
+    {
+      name: "Poesis Payne",
     },
     {
       name: "Purple Shirt Brigade",
@@ -121,6 +166,9 @@ const orgs = [
     },
     {
       name: "Racial Justice Task Force, Unitarian Universalist Church of Bloomington",
+    },
+    {
+      name: "Razor Images",
     },
     {
       name: "School of Education Graduate Student Association",
