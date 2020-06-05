@@ -33,20 +33,6 @@ export default class Agenda extends React.Component {
         As we mourn the life of George Floyd, we are in solidarity with those in the streets in Minneapolis and the Black liberation movement that is working to destroy white supremacy, abolish police brutality and free us all. 
       </p>
 
-      <Card style={card}>
-          <Card.Body>
-            <Card.Title>Monday June 1st - Thursday June 4th</Card.Title>
-            <Card.Text>
-              <p>Any Time</p>
-              <ul>
-                <li>Locations: Sample Gates, Switchyard Park, Monroe County Sheriff's Office, Monroe County Courthouse, Kirkwood, B-Line, Seminary Park, Farmer's Market</li>
-                <li>Spread the word! Chalk sidewalks, post signs, pass out flyers, recite poetry, perform music, or leave artwork</li>
-              </ul>
-
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
         <Card style={card}>
           <Card.Body>
             <Card.Title>Friday June 5th</Card.Title>
