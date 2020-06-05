@@ -48,7 +48,7 @@ export default class Donate extends React.Component {
           <Card.Body>
             <Card.Title><h4>T-Shirt Fundraiser</h4></Card.Title>
             <Card.Text style={{textAlign: 'center'}}>
-              A limited supply of shirts will be available in Dunn Meadow Friday afternoon. Once they run out, place a pre-order here and we will deliver you the shirt at a later time!
+              <p>A limited supply of shirts will be available in Dunn Meadow Friday afternoon. Once they run out, place a pre-order here and we will deliver you the shirt at a later time!</p>
               <a href="https://enoughbtown.myshopify.com/"><button style={button}>Pre-Order Shirt Here!</button></a>
 
             </Card.Text>
