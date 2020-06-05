@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
-// import Shopify from '../components/Shopify';
 
 const img ={
   width: 200,
@@ -70,10 +69,6 @@ export default class Donate extends React.Component {
           </Card.Body>
         </Card>
       </CardGroup>
-
-      {/* <Shopify /> */}
-
-
       
       <footer>
         <Footer />

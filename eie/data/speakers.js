@@ -61,7 +61,7 @@ const speakers = [
     },
     {
       src: "./speaker/freeman.jpg",
-      name: "Justin M.L. Freeman",
+      name: "Justin Freeman",
       title: "Student Speaker",
     },
 
