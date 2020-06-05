@@ -16,6 +16,18 @@ const card ={
   marginBottom: '10px',
 }
 
+const button ={
+  background: 'var(--base2)',
+  borderRadius: '10px',
+  border: 'none',
+  color: 'var(--white)',
+  fontWeight: 'bold',
+  width: '250px',
+  padding: 15,
+  margin: 10,
+  textAlign: 'center',
+}
+
 export default class Donate extends React.Component {
   constructor(props) {
       super (props);
@@ -30,6 +42,19 @@ export default class Donate extends React.Component {
       <Header />
       <h1>Donate</h1>
       <p>We are proud to announce that we are taking donations for two causes local and across state lines to create unity in our community.</p>
+
+      <Card style={card}>
+          <Card.Img variant="top" src="./shirt.jpg" style={img}/>
+          <Card.Body>
+            <Card.Title><h4>T-Shirt Fundraiser</h4></Card.Title>
+            <Card.Text style={{textAlign: 'center'}}>
+              A limited supply of shirts will be available in Dunn Meadow Friday afternoon. Once they run out, place a pre-order here and we will deliver you the shirt at a later time!
+              <a href="https://enoughbtown.myshopify.com/"><button style={button}>Pre-Order Shirt Here!</button></a>
+
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
       <p>
         <span style={{fontWeight: 'bold'}}>The Banneker Community Center</span> <span style={{marginBottom: '10px'}}>is an organization that has opened its arms as a space for black youth in Bloomington. By fundraising for this organization, we hope to promote empowerment for our future leaders. Black youth are young witnesses to the crimes against black people. This protest is one that not only is to inform but to empower. One way we believe we can empower is having this protest have immediate results that can directly impact the black community of Bloomington. </span>
       </p>
