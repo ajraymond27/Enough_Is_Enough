@@ -4,6 +4,9 @@ import React, { Component } from 'react';
 /*<![CDATA[*/
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (typeof window === 'undefined') {
+    global.window = {}
+  }
   if (window.ShopifyBuy) {
     if (window.ShopifyBuy.UI) {
       ShopifyBuyInit();
