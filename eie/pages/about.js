@@ -66,11 +66,11 @@ export default class About extends React.Component {
         <Card style={card}>
             <Card.Body>
               <Card.Text style={{textAlign: 'center'}}>
-                <SocialIcon url="https://www.instagram.com/_theenoughfund/?hl=en" bgColor='var(--base2)' style={social}/>
-                <p>Contact <a href="https://www.instagram.com/_theenoughfund/?hl=en">@_theenoughfund </a> on Instagram with all questions and inquiries. Thank you!</p>       
+                <SocialIcon url="https://www.instagram.com/_theenoughfund/?hl=en" target="_blank" bgColor='var(--base2)' style={social}/>
+                <p>Contact <a href="https://www.instagram.com/_theenoughfund/?hl=en" target="_blank">@_theenoughfund </a> on Instagram with all questions and inquiries. Thank you!</p>       
 
-                <SocialIcon url="https://www.facebook.com/enoughbtown/" bgColor='var(--base2)' style={social}/>
-                <p>Find event updates, photos, and more on our Facebook page: <a href="https://www.facebook.com/enoughbtown/">Enough is Enough</a></p>   
+                <SocialIcon url="https://www.facebook.com/enoughbtown/" target="_blank" bgColor='var(--base2)' style={social}/>
+                <p>Find event updates, photos, and more on our Facebook page: <a href="https://www.facebook.com/enoughbtown/" target="_blank">Enough is Enough</a></p>   
                 
                 {/* <SocialIcon url="https://bloomington.in.gov/inclusion/black-history-month" bgColor='var(--base2)' style={social}/>
                 <p>Discover black owned businesses and find more ways to get involved here: <a href="https://bloomington.in.gov/inclusion/black-history-month">Black 	&amp; Blooming</a></p>            */}
