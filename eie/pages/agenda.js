@@ -36,31 +36,31 @@ export default class Agenda extends React.Component {
         <Card style={card}>
           <Card.Body>
             <Card.Title>Friday June 13th</Card.Title>
-            <Card.Title>Indianapolis Memorial Park</Card.Title>
+            <Card.Title>Holiday Park - Broad Ripple - Indianapolis</Card.Title>
 
             <Card.Text>
-              <p>1:00pm ET</p>
+              <p>2:00pm ET</p>
               <ul>
                 <li>Volunteers will pass out face masks and gloves as well as posters and markers to create signs!</li>
               </ul>
 
-              <p>2:00pm ET</p>
+              <p>3:00pm ET</p>
               <ul>
                 <li>Rally the people up!</li>
-                <li>Congressman Andre Carson addresses the historical context behind Juneteenth.</li>
+                <li>Congressman Andre Carson will address the historical context behind Juneteenth.</li>
                 <li>Take a moment of silence for the lives who have been lost.</li>
               </ul>
 
-              <p>3:00pm ET</p>
+              <p>4:00pm ET</p>
               <ul>
                 <li>Public speakers, singers, and poets will address the protest.</li>
                 <li>Create and post signs.</li>
                 <li>Remember all our fallen black and brown brothers and sisters with pictures, candles, and art.</li>
               </ul>
 
-              <p>5:00pm ET</p>
+              <p>6:00pm ET</p>
               <ul>
-                <li>If curfew is implemented, end the protest.</li>
+                <li>End protest, but continue to uplift black liberation through music, culture, and philanthropy!</li>
               </ul>
             </Card.Text>
           </Card.Body>
@@ -112,7 +112,7 @@ export default class Agenda extends React.Component {
             <Card.Title>Driving Option</Card.Title>
             <Card.Text>
               <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up around the protesters. 
-                Volunteers will also be in both parking lots with art supplies for those who want to decorate their car!</p>
+                Volunteers will have art supplies for those who want to decorate their car!</p>
             </Card.Text>
           </Card.Body>
         </Card>
