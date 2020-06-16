@@ -17,7 +17,7 @@ const social = {
 export default function Footer () {
     return (
         <footer style={footer}>
-            <SocialIcon url="https://www.instagram.com/_enoughisenough2020/?hl=en" bgColor='var(--base2)' style={social}/>
+            <SocialIcon url="https://www.instagram.com/_theenoughfund/?hl=en" bgColor='var(--base2)' style={social}/>
             <SocialIcon url="https://www.facebook.com/enoughbtown/" bgColor='var(--base2)' style={social}/>
         </footer>
     )
