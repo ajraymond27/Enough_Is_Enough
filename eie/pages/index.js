@@ -37,7 +37,7 @@ export default class Home extends React.Component {
       <Header />
       <h1>Juneteenth Celebratory Protest</h1>
       <h4 style={{color: 'var(--base1)'}}>Friday June 19th | 1:00 PM ET</h4>
-      <h4 style={{color: 'var(--base1)'}}>Holiday Park - Broad Ripple Indianapolis</h4>
+      <h4 style={{color: 'var(--base1)'}}>Holiday Park | Broad Ripple Indianapolis</h4>
       {/* <h4>Dunn Meadow</h4>
       <h4>3:00 PM ET</h4> */}
       <div style={{marginBottom: 10}}>
