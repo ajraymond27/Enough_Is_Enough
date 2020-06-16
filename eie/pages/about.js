@@ -67,7 +67,7 @@ export default class About extends React.Component {
             <Card.Body>
               <Card.Text style={{textAlign: 'center'}}>
                 <SocialIcon url="https://www.instagram.com/_theenoughfund/?hl=en" bgColor='var(--base2)' style={social}/>
-                <p>Contact <a href="https://www.instagram.com/_theenoughfund/?hl=en">_enoughisenough2020 </a> on Instagram with all questions and inquiries. Thank you!</p>       
+                <p>Contact <a href="https://www.instagram.com/_theenoughfund/?hl=en">@_theenoughfund </a> on Instagram with all questions and inquiries. Thank you!</p>       
 
                 <SocialIcon url="https://www.facebook.com/enoughbtown/" bgColor='var(--base2)' style={social}/>
                 <p>Find event updates, photos, and more on our Facebook page: <a href="https://www.facebook.com/enoughbtown/">Enough is Enough</a></p>   
