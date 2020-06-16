@@ -29,58 +29,90 @@ export default class Agenda extends React.Component {
       </Head>
       <Header />
       <h1>Agenda</h1>
-      <p>THIS IS A PEACEFUL MARCH/PROTEST!!
-        As we mourn the life of George Floyd, we are in solidarity with those in the streets in Minneapolis and the Black liberation movement that is working to destroy white supremacy, abolish police brutality and free us all. 
+      <p>THIS IS A PEACEFUL PROTEST!!
+        As we mourn the life of George Floyd, we are in solidarity with those in the streets in Minneapolis and the Black liberation movement that is working to destroy white supremacy, abolish police brutality, and free us all. 
       </p>
 
         <Card style={card}>
           <Card.Body>
-            <Card.Title>Friday June 5th</Card.Title>
+            <Card.Title>Friday June 13th</Card.Title>
+            <Card.Title>Indianapolis Memorial Park</Card.Title>
+
             <Card.Text>
               <p>1:00pm ET</p>
               <ul>
-                <li>Location: Dunn Meadow</li>
                 <li>Volunteers will pass out face masks and gloves as well as posters and markers to create signs!</li>
               </ul>
 
               <p>2:00pm ET</p>
               <ul>
-                <li>Location: Dunn Meadow</li>
-                <li>Rally up the people!</li>
+                <li>Rally the people up!</li>
+                <li>Congressman Andre Carson addresses the historical context behind Juneteenth.</li>
+                <li>Take a moment of silence for the lives who have been lost.</li>
               </ul>
 
               <p>3:00pm ET</p>
               <ul>
-                <li>Location: Dunn Meadow</li>
-                <li>Public speakers will address the protest.</li>
+                <li>Public speakers, singers, and poets will address the protest.</li>
+                <li>Create and post signs.</li>
+                <li>Remember all our fallen black and brown brothers and sisters with pictures, candles, and art.</li>
               </ul>
 
-              <p>3:30pm ET</p>
+              <p>5:00pm ET</p>
               <ul>
-                <li>Location: Dunn Meadow --> Courthouse</li>
-                <li>We march! Volunteers will guide the march from Dunn Meadow to the Courthouse.</li>
-              </ul>
-
-              <p>4:00pm ET</p>
-              <ul>
-                <li>Location: Monroe County Courthouse</li>
-                <li>Public speakers will address the protest. Remember all of our fallen black and brown brothers and sisters with pictures, candles, artwork and signs</li>
+                <li>If curfew is implemented, end the protest.</li>
               </ul>
             </Card.Text>
           </Card.Body>
         </Card>
 
-        <h4>Public Speakers</h4>
-        <SpeakerGroup />
+        <h4>Protest Objectives and Outcomes</h4>
+        <Card style={card}>
+          <Card.Body>
+            <Card.Title>Objectives</Card.Title>
+
+            <Card.Text>
+              <p>Address the current political climate of police brutality and Black lives.</p>
+              <ul>
+                <li>Transparent Police Budget </li>
+                <li>Breakdown of the 254 million dollars spent  </li>
+
+              </ul>
+
+              <p>Remove barriers to reporting police misconduct</p>
+              <ul>
+                <li>For all stops by a police officer, require officers to give civilians their name, badge number, reason for the stop and a card with instructions for filing a complaint to the civilian oversight structure. </li>
+              </ul>
+
+              <p>Gain transparent disciplinary, and misconduct records for police officers </p>
+              <ul>
+                <li>Under Indiana Code § 5-14-3, police disciplinary records are only public if they pertain to an officer's demotion, suspension, or discharge.</li>
+              </ul>
+
+              <p>Address Voter Supression</p>
+              <ul>
+                <li>Marion County has 22 polling stations for its 960,000 citizen population - 30% of which is black.
+                  Hamilton County has 125 polling stations for its 338,000 citizen population - 89% of which is white and 3.5% is black. Hamilton has 5.7 times more polling stations than Marion County despite being 1/3 the size.
+                </li>
+                <li>Spread information to Black business owners to certify their business location as a polling location for future elections.</li>
+                <li>Spread information to individuals to become certified to help at polling locations.</li>
+                <li>Address local, state, and federal political candidate that align with the goal of Social Justice</li>
+                <li>ENCOURAGE PEOPLE TO REGISTER TO VOTE AND GET OUT TO VOTE!</li>
+              </ul>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        {/* <h4>Public Speakers</h4>
+        <SpeakerGroup /> */}
 
         <h4>Covid-19 Accomodations</h4>
         <Card style={card}>
           <Card.Body>
             <Card.Title>Driving Option</Card.Title>
             <Card.Text>
-              <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up behind the marchers at 2:45pm ET on Friday June 5th. 
-                Blue and black Ford Fusions will lead the line of cars. IF you plan on driving, please park in the two parking lots behind Noodles &amp; Company. If those spaces are full, please park behind Qdoba.
-                We will have volunteers directing traffic! Volunteers will also be in both parking lots with art supplies for those who want to decorate their car!</p>
+              <p>If unable or worried of joining a large crowd, please decorate your car in solidarity and safely line up around the protesters. 
+                Volunteers will also be in both parking lots with art supplies for those who want to decorate their car!</p>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -88,8 +120,7 @@ export default class Agenda extends React.Component {
           <Card.Body>
             <Card.Title>Supplies</Card.Title>
             <Card.Text>
-              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need. However, please refer to this Walmart registry for items still needed for the protest. Our team will pick the items up from the store.
-                <a href="https://www.walmart.com/lists/shared/042deea4-05cb-43d5-b914-db597a0aff7b"> Walmart Registry</a>
+              <p>Our volunteers will have a limited supply of masks, first aid, and water for anyone in need.
               </p>
             </Card.Text>
           </Card.Body>

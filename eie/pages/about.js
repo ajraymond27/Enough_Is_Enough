@@ -69,34 +69,28 @@ export default class About extends React.Component {
                 <SocialIcon url="https://www.instagram.com/_enoughisenough2020/?hl=en" bgColor='var(--base2)' style={social}/>
                 <p>Contact <a href="https://www.instagram.com/_enoughisenough2020/?hl=en">_enoughisenough2020 </a> on Instagram with all questions and inquiries. Thank you!</p>       
 
-                <SocialIcon url="https://www.facebook.com/events/3053893141326870" bgColor='var(--base2)' style={social}/>
-                <p>Register for the march using our Facebook event: <a href="https://www.instagram.com/_enoughisenough2020/?hl=en">Enough: June 5 Peaceful March/Protest against Police Brutality</a></p>   
+                <SocialIcon url="https://www.facebook.com/enoughbtown/" bgColor='var(--base2)' style={social}/>
+                <p>Find event updates, photos, and more on our Facebook page: <a href="https://www.facebook.com/enoughbtown/">Enough is Enough</a></p>   
                 
-                <SocialIcon url="https://bloomington.in.gov/inclusion/black-history-month" bgColor='var(--base2)' style={social}/>
-                <p>Discover black owned businesses and find more ways to get involved here: <a href="https://bloomington.in.gov/inclusion/black-history-month">Black 	&amp; Blooming</a></p>           
+                {/* <SocialIcon url="https://bloomington.in.gov/inclusion/black-history-month" bgColor='var(--base2)' style={social}/>
+                <p>Discover black owned businesses and find more ways to get involved here: <a href="https://bloomington.in.gov/inclusion/black-history-month">Black 	&amp; Blooming</a></p>            */}
         
               </Card.Text>
             </Card.Body>
           </Card>
 
       <h4>Spread The Word</h4>
-      <CardGroup>
+      <div style={{width: '100%', textAlign: 'center'}}>
+        <img src="./flyers/juneteenth.jpg" style={{width:'350px', margin: '0 auto', textAlign: 'center'}}></img>
+      </div>
+      {/* <CardGroup>
         <Card style={card}>
-          <Card.Img variant="top" src="./flyers/flyer1.jpg" />
+          <Card.Img variant="top" src="./flyers/juneteenth.jpg" style={{width:'350px'}}/>
         </Card>
-        <Card style={card}>
-          <Card.Img variant="top" src="./flyers/flyer2.jpg" />
-        </Card>
-        <Card style={card}>
-          <Card.Img variant="top" src="./flyers/flyer3.jpg"/>
-        </Card>
-        <Card style={card}>
-          <Card.Img variant="top" src="./flyers/faces.png"/>
-        </Card>
-      </CardGroup>
+      </CardGroup> */}
 
-      <h4>Supporting Organizations</h4>
-      <OrgSection />
+      {/* <h4>Supporting Organizations</h4>
+      <OrgSection /> */}
       
       <footer>
         <Footer />

@@ -32,20 +32,20 @@ export default class Home extends React.Component {
   return (
     <div className="container">
       <Head>
-        <title>Enough Is Enough</title>
+        <title>Juneteenth Celebratory Protest</title>
       </Head>
       <Header />
-      <h1>Enough Is Enough</h1>
-      <h4 style={{color: 'var(--base1)'}}>Friday June 5th | 3:00 PM ET</h4>
-      <h4 style={{color: 'var(--base1)'}}>Bloomington Dunn Meadow</h4>
+      <h1>Juneteenth Celebratory Protest</h1>
+      <h4 style={{color: 'var(--base1)'}}>Friday June 19th | 1:00 PM ET</h4>
+      <h4 style={{color: 'var(--base1)'}}>Indianapolis Memorial Park</h4>
       {/* <h4>Dunn Meadow</h4>
       <h4>3:00 PM ET</h4> */}
       <div style={{marginBottom: 10}}>
-        <p>Our mission is to create a space for those affected by these crimes against humanity. 
-          During times like this it can feel as if there is merely nothing we can do to express our anger, outrage, and emotions for the unjust treatment of Black bodies in America. 
-          Police enforcement, government officials, and leaders of this country constantly misuse their power and there doesn’t seem to be an end in sight. 
-          When will our voices be heard? When will change occur? HOW MANY MORE PEOPLE HAVE TO DIE for law and order to actually exist, not only for white people? 
-          Our goal is to come together and use our action plan while practicing social distancing due to COVID-19, to ensure black bodies are united and supported throughout this time and for the future.</p>
+      <p>On May 25th, George Floyd was murdered by Minneapolis police. 
+          This brutal killing follows the death of Sean Reed who live streamed his own murder as police laughed; Breonna Taylor who was killed in her bed at the hands of police in Louisville, Kentucky; Ahmaud Arbery who was murdered in a Georgia suburb while jogging; the heinous actions of Amy Cooper in Central Park; and centuries of police abuse and violence targeted against Black and communities of color. </p>
+        <p>Juneteenth, also known as Freedom Day, or the Black Fourth of July, is an American holiday that commemorates June 19, 1865 when union soldiers entered into Texas with news that the Civil War was over and that the enslaved were now free.  
+          Juneteenth is the oldest nationally celebrated commemoration of the ending of slavery in the United States. 
+          Our mission is to create a Juneteenth Protest in Indianapolis June 19th, 2020 to commemorate the diverse history, culture, and beauty of what it means to be Black in America. </p>
         <VictimScroller />
         <div style={{margin: '0 auto', textAlign: 'center', }}>
           <a href="/agenda"><button style={button}>Agenda</button></a>
