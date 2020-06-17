@@ -35,7 +35,7 @@ export default class Agenda extends React.Component {
 
         <Card style={card}>
           <Card.Body>
-            <Card.Title>Friday June 13th</Card.Title>
+            <Card.Title>Friday June 19th</Card.Title>
             <Card.Title>Holiday Park | Broad Ripple Indianapolis</Card.Title>
 
             <Card.Text>
