@@ -5,10 +5,14 @@ import Link from '../components/NavLink';
 import Footer from '../components/Footer';
 import VictimScroller from '../components/VictimScroller';
 
-const poster = {
-  width: '95%',
-  margin: '0 auto',
-  textAlign: 'center',
+const eie ={
+  height: '80vh',
+  paddingTop: '55vh',
+  backgroundImage: 'url("./index.jpg")',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  backgroundColor: '#000',
 }
 
 const button ={
@@ -17,7 +21,7 @@ const button ={
   border: 'none',
   color: 'var(--white)',
   fontWeight: 'bold',
-  width: '250px',
+  width: '200px',
   padding: 15,
   margin: 10,
   textAlign: 'center',
@@ -35,25 +39,21 @@ export default class Home extends React.Component {
         <title>Juneteenth Celebratory Protest</title>
       </Head>
       <Header />
-      <h1>Juneteenth Celebratory Protest</h1>
-      <h4 style={{color: 'var(--base1)'}}>Friday June 19th | 1:00 PM ET</h4>
-      <h4 style={{color: 'var(--base1)'}}>Holiday Park | Broad Ripple Indianapolis</h4>
-      {/* <h4>Dunn Meadow</h4>
-      <h4>3:00 PM ET</h4> */}
+      <div style={eie}>
+        <div style={{backgroundColor: '#000', opacity: 0.75, height: '100%'}}>
+          <h1 style={{color: '#fff'}}>Enough Is Enough</h1>
+          <h4 style={{color: 'var(--base1)'}}>We must end racism and institutional oppression by uplifting black leadership, business, and art in our local communities</h4>
+        </div>
+      </div>
       <div style={{marginBottom: 10}}>
-      <p>On May 25th, George Floyd was murdered by Minneapolis police. 
-          This brutal killing follows the death of Sean Reed who live streamed his own murder as police laughed; Breonna Taylor who was killed in her bed at the hands of police in Louisville, Kentucky; Ahmaud Arbery who was murdered in a Georgia suburb while jogging; the heinous actions of Amy Cooper in Central Park; and centuries of police abuse and violence targeted against Black and communities of color. </p>
-        <p>Juneteenth, also known as Freedom Day, or the Black Fourth of July, is an American holiday that commemorates June 19, 1865 when union soldiers entered into Texas with news that the Civil War was over and that the enslaved were now free.  
-          Juneteenth is the oldest nationally celebrated commemoration of the ending of slavery in the United States. 
-          Our mission is to create a Juneteenth Protest in Indianapolis June 19th, 2020 to commemorate the diverse history, culture, and beauty of what it means to be Black in America. </p>
-        <VictimScroller />
+        {/* <VictimScroller /> */}
         <div style={{margin: '0 auto', textAlign: 'center', }}>
-          <a href="/agenda"><button style={button}>Agenda</button></a>
           <a href="/donate"><button style={button}>Donate</button></a>
+          <a href="/support"><button style={button}>Support</button></a>
+          <a href="/events"><button style={button}>Events</button></a>
           <a href="/about"><button style={button}>About</button></a>
         </div>
       
-        {/* <img src='./poster_cropped.jpg' style={poster}/> */}
       </div>
 
       <footer>

@@ -21,8 +21,9 @@ export default function Header() {
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav>
                     <Link href="/" >Home</Link>
-                    <Link href="/agenda" >Agenda</Link>
                     <Link href="/donate" >Donate</Link>
+                    <Link href="/support" >Support</Link>
+                    <Link href="/events" >Events</Link>
                     <Link href="/about" >About</Link>
 
                 </Nav>

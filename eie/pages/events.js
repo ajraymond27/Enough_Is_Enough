@@ -25,7 +25,7 @@ export default class Agenda extends React.Component {
   return (
     <div className="container">
       <Head>
-        <title>Agenda</title>
+        <title>Events</title>
       </Head>
       <Header />
       <h1>Agenda</h1>
